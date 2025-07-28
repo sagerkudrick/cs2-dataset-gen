@@ -26,9 +26,9 @@ However, some limitations remain:
 
 This project contains:
 
-- A `.blend` file with a **placeholder model** and a scripted camera rig
-- A Python script to automate **multi-angle rendering**
-- Output images with **transparent backgrounds** for use in datasets
+- A self-contained `.blend` file featuring a placeholder model and the complete scripted camera rig. The file opens directly to the scripting workspace, where you can press start to run the script (you’ll need to provide your own model, and delete the **placeholder model**).
+
+- A standalone Python script that automates multi-angle rendering, allowing you to understand and run the process without needing the .blend file.
 
 <p align="center">
   <img src="imgs/blender_prev.gif" width="500" alt="Blender Setup Preview"/><br/>
@@ -50,9 +50,9 @@ This lets you easily composite renders over any background and train AI models o
 
 ## 📁 Files
 
-- `cs2_model.blend` – Blender file with model + camera setup
-- `rotate_and_render.py` – Script to rotate and render at every angle
-- `imgs/` – Sample renders, Blender previews, and detection results
+- `blend_files/CS2_DatasetGenerator.blend` – Blender file with model + camera setup + script
+- `scripts/render_generator.py` – Stand-alone script to rotate and render at every angle, so you can see what it does without downloading/opening the .blend
+- `imgs/*` – Sample renders, Blender previews, and detection results
 
 ---
 
