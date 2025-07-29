@@ -8,7 +8,7 @@ A Blender-based tool for generating synthetic datasets of CS2 character models f
 </p>
 
 <p align="center">
-  <img src="imgs/livedetect.png" width="500" alt="YOLOv7 Detection Example"/><br/>
+  <img src="imgs/detection_anim.gif" width="500" alt="YOLOv7 Detection Example"/><br/>
   <em>YOLOv7 detecting a CS2 character in live gameplay (88% confidence), trained entirely on 210 synthetic images generated via automated multi-angle rendering.</em>
 </p>
 
